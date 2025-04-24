@@ -1,0 +1,20 @@
+a {
+    color: #FFD700;
+    /* Bright gold color */
+    text-decoration: none;
+    /* Removes underline */
+}
+
+a:hover {
+    color: #FFA500;
+    /* Change color on hover (optional) */
+}
+
+body {
+    background-color: black;
+    color: white;
+    /* Optional: Set text color to white for better contrast */
+    font-family: 'Cinzel', serif;
+    /* Apothecary-style font */
+    text-align: center;
+}
