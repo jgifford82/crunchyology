@@ -1,2 +1,2 @@
 # crunchyology
-crunchyology webite
+crunchyology website
