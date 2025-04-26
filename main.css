@@ -1,22 +1,22 @@
-a {
-    color: #FFD700;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #FFA500;
-}
-
 body {
-    background-color: black;
-    color: white;
+    background-color: #D2B48C;
+    color: black;
     font-family: 'Cinzel', serif;
     padding-bottom: 50px;
     text-align: center;
 }
 
+.about {
+    font-family: 'Merriweather', serif;
+    background-color: #fbf5e8;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
 .farmers_market_header {
-    color: tan;
+    color: black;
     font-family: 'Cinzel', serif;
     text-align: center;
     margin-top: 20px;
@@ -27,11 +27,44 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
+    border: #D2B48C 5px solid;
+}
+
+.farmers_market_link {
+    text-decoration: none;
+    color: #FFA500;
+}
+
+.farmers_market_link:hover {
+    color: #7d5c32;
 }
 
 .instagram {
-    position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.instagram_link {
+    text-decoration: none;
+    color: #FFD700;
+}
+
+.instagram_link:hover {
+    color: #7d5c32;
+}
+
+.logo {
+    width: 318px;
+    height: auto;
+}
+
+.text_container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
 }
