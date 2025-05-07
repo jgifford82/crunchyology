@@ -92,3 +92,35 @@ a:hover {
     margin: 20px auto;
     width: 80%;
 }
+
+.truck-container {
+    position: absolute;
+    top: 80px;
+    /* Adjust to move the truck-container vertically */
+    left: 20px;
+    /* Adjust to move the truck-container horizontally */
+    transform: rotate(-10deg);
+    /* Optional: Slight diagonal rotation */
+    /* z-index: 2; */
+    /* Ensure it appears above the text-container */
+}
+
+/* .truck-image {
+    width: 100px;
+    /* Adjust the size of the truck image */
+/* height: auto; */
+/* Maintain aspect ratio */
+/* } */
+
+.truck-container p {
+    font-family: 'Merriweather', serif;
+    /* Optional: Set a font style */
+    font-size: 1.2em;
+    /* Adjust text size */
+    color: black;
+    /* Text color */
+    margin: 0;
+    /* Remove default margin */
+    text-align: center;
+    /* Center-align the text */
+}
