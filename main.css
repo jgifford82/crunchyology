@@ -63,21 +63,11 @@ a:hover {
     color: #FFA500;
 }
 
-.instagram {
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-.instagram_link {
-    text-decoration: none;
-    color: #FFD700;
-}
-
-.instagram_link:hover {
-    color: #7d5c32;
+.instagram_logo {
+    width: 48px;
+    height: auto;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .logo {
